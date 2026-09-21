@@ -1,0 +1,88 @@
+    //--------------------------------------
+    //ETAPA 2 - centralizar cores
+    //--------------------------------------
+
+    export const jogos = [
+        {
+            id: "1",
+            nome: "Minecraft",
+            genero: "Sandbox",
+            nota: 4.8,
+            plataforma: "PC, Console, Mobile",
+            Descrição: "Um mundo feito de blocos onde você pode construir",
+            imagem: require("../../assets/games/minecraft.jpg"),
+            destaque: false,
+        },
+        {
+            id: "2",
+            nome: "Marvel Rivals",
+            genero: "hero shooter",
+            nota: 4.5,
+            plataforma: "PC, Console",
+            Descrição: "Jogo baseado nos heróis da marvel",
+            imagem: require("../../assets/games/marvelrivals.jpg"),
+            destaque: true,
+        },
+        {
+            id: "3",
+            nome: "Resident Evil",
+            genero: "survival horror",
+            nota: 5.0,
+            plataforma: "PC, Console",
+            Descrição: "A história sobre vírus mortais e armas biológicas desenvolvidas pela Umbrella Corporation",
+            imagem: require("../../assets/games/residentevil.jpg"),
+            destaque: true,
+        },
+        {
+            id: "4",
+            nome: "Roblox",
+            genero: "Sandbox",
+            nota: 4.2,
+            plataforma: "PC, Console, Mobile",
+            Descrição: "Vários jogos dentro de um único jogo",
+            imagem: require("../../assets/games/roblox.jpg"),
+            destaque: false,
+        },
+        {
+            id: "5",
+            nome: "Detroit Become Human",
+            genero: "drama interativo e ação-aventura",
+            nota: 4.9,
+            plataforma: "PC, Console",
+            Descrição: "jogo de drama interativo, explora o que significa ser humano através de inteligência artificial",
+            imagem: require("../../assets/games/detroit.jpg"),
+            destaque: false,
+        },
+        {
+            id: "6",
+            nome: "The Last of Us",
+            genero: "Ação e aventura",
+            nota: 5.0,
+            plataforma: "PC, Console",
+            Descrição: "mundo pós-apocalíptico destruído por uma pandemia",
+            imagem: require("../../assets/games/thelastofus.jpg"),
+            destaque: true,
+        },
+        {
+            id: "7",
+            nome: "God of War",
+            genero: "Ação e aventura",
+            nota: 5.0,
+            plataforma: "PC, Console",
+            Descrição: "um guerreiro espartano que se torna o Deus da Guerra e enfrenta diferentes panteões mitológicos",
+            imagem: require("../../assets/games/godofwar.jpg"),
+            destaque: true,
+        },
+        {
+            id: "8",
+            nome: "Until Dawn",
+            genero: "terror e sobrevivência interativo",
+            nota: 4.1,
+            plataforma: "PC, Console",
+            Descrição: "oito amigos ficam presos em um chalé isolado na montanha e precisam sobreviver até o amanhecer",
+            imagem: require("../../assets/games/untildawn.jpg"),
+            destaque: false,
+        },
+
+    ]
+    // vamos para a etapa 4 - criar um arquivo gamecard.js com os dados dos jogos
