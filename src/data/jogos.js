@@ -1,0 +1,88 @@
+// ===============================
+// ETAPA 3 - CADASTRO DOS JOGOS
+// ===============================
+
+export const jogos = [
+    {
+        id: "1",
+        nome: "Minecraft",
+        genero: "Sandbox",
+        nota: 3.8,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "Um mundo feito de blocos onde você pode contruir",
+        imagem: require("../../assets/games/minecraft.jpg"),
+        destaque: false,
+    },
+    {
+        id: "2",
+        nome: "Marvel Rivals",
+        genero: "hero shooter",
+        nota: 4.0,
+        plataforma: "PC, Console",
+        Descrição: "Jogo baseado nos heróis da marvel",
+        imagem: require("../../assets/games/marvelrivals.jpg"),
+        destaque: true,
+    },
+    {
+        id: "3",
+        nome: "Resident Evil",
+        genero: "Survival horror",
+        nota: 5.0,
+        plataforma: "PC, Console",
+        Descrição: "conspirações biológicas, infestações de zumbis e monstros criados por corporações corruptas",
+        imagem: require("../../assets/games/residentevil.jpg"),
+        destaque: true,
+    },
+    {
+        id: "4",
+        nome: "Roblox",
+        genero: "SandBox",
+        nota: 3.7,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "Varios jogos dentro de um jogo",
+        imagem: require("../../assets/games/roblox.jpg"),
+        destaque: false,
+    },
+    {
+        id: "5",
+        nome: "The Last of Us",
+        genero: "ação-aventura e terror de sobrevivência",
+        nota: 4.8,
+        plataforma: "PC, Console",
+        Descrição: "sobrevivência da humanidade em um mundo pós-apocalíptico",
+        imagem: require("../../assets/games/thelastofus.jpg"),
+        destaque: true,
+    },
+    {
+        id: "6",
+        nome: "Until Dawn",
+        genero: "Terror interativo",
+        nota: 4.4,
+        plataforma: "PC, Console",
+        Descrição: "oito amigos ficam presos em um chalé isolado na montanha e precisam sobreviver até o amanhecer",
+        imagem: require("../../assets/games/untildawn.jpg"),
+        destaque: false,
+    },
+    {
+        id: "7",
+        nome: "Detroit: Become Human",
+        genero: "drama interativo e aventura",
+        nota: 4.1,
+        plataforma: "PC, Console",
+        Descrição: "três androides diferentes que desenvolvem consciência e emoções, tornando-se divergentes",
+        imagem: require("../../assets/games/detroit.jpg"),
+        destaque: false,
+    },
+    {
+        id: "8",
+        nome: "God of War",
+        genero: "ação-aventura",
+        nota: 4.9,
+        plataforma: "PC, Console",
+        Descrição: "acompanha a trágica e violenta jornada de Kratos, um guerreiro espartano",
+        imagem: require("../../assets/games/godofwar.png"),
+        destaque: true,
+    },
+    
+]
+// VAMOS PARA ETAPA 4 - CRIAR O ARQUIVO GameCard.js COM OS DADOS DOS JOGOS
